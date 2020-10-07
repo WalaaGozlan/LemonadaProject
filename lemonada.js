@@ -33,4 +33,6 @@ $("#feedback").click(function(){
 	window.location.href = "feedback.html";
 })
 
-console.log($(".Back"))
+$("#sub").click(function(){
+	alert("Submit successfully!")
+})
