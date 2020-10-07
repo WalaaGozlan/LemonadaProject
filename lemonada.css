@@ -1,7 +1,7 @@
 h1 {
 	text-align: center;
 }
-h3 {
+h3, p {
 	text-align: center;
 }
 img {
@@ -10,6 +10,38 @@ img {
   margin-right: auto;
   width: 30%;
 }
-.container {
-	  
+
+input[type=text], input[type=email], textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-top: 6px;
+    margin-bottom: 16px;
+	resize:vertical;
 }
+input[type=submit] {
+	background-color: #DB7093;
+}
+
+footer {
+	border: solid;
+	width: 25%;
+ 	background-color: #FAEBD7;
+ 	font-size: 20px;
+ 	padding: 4px ;
+ 	border-radius: 10px 20px;
+ 	color: black;
+}
+ button[class=btn] {
+ 	width: 100%;
+ 	background-color: #7FFFD4;
+ 	font-size: 35px;
+ 	padding: 14px 14px;
+ 	border-radius: 10px 20px;
+ }
+ button[class=btn]:hover {
+ 	background-color: #008B8B ;
+ 	color: #2F4F4F
+ }
