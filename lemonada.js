@@ -33,6 +33,61 @@ $("#feedback").click(function(){
 	window.location.href = "feedback.html";
 })
 
-$("#sub").click(function(){
-	alert("Submit successfully!")
-})
+
+
+ 
+ // $("#sub").click(function(){
+ // 	alert("Submit successfully!");
+ // }
+
+
+
+
+
+
+
+
+//  var container = $(".feed")
+
+// $("#sub").click(function(){
+
+//  	alert("Submit successfully!");
+
+// 	}
+
+
+
+
+// var container = [
+// {
+// 	label:"First Name ",
+// 	input:$("input")
+// },
+// {
+// 	label:"Last Name",
+// 	input:
+// },
+// {
+// 	label:"Your feedback",
+// 	input:
+// },
+// {
+// 	label:
+// 	textarea:
+// }
+
+// ]
+
+// $("#sub").click(function(){
+// 	if($("#inputval").val() === " "){
+// 		alert("you should write your full name and email");
+// 	}
+// 	// else if($("textarea").val() === ""){
+// 	// 	alert("We will be happy to listen from you ^__^")
+// 	// }
+	
+// 	else{
+// 		alert("Submit successfully!");
+// 	}
+	
+// })

@@ -9,24 +9,32 @@
 	<title></title>
 </head>
 <body>
+	<div id="feedbackpage">
 	<h3>Wish to listen from you</h3>
-<div class="container">
+
  <form action="/action_page.php" id="submitchange">
+ 	
 	<label>First Name : </label>
-	<input type="text" name="firstname">
+	<input type="text" name="firstname" class="feed">
+
 	<label>Last Name :</label>
-	<input type="text" name="lastname">
+	<input type="text" name="lastname" class="feed">
+
 	<label>Email :</label>
 	<input type="email">
+
 	<label>Your feedback :</label>
 	<textarea placeholder="feel free to write"></textarea>
-	<input type="submit" value="submit" id="sub">
+	
+
+	<input type="submit" value="submit" class="sub">
+	<input type="reset" name="Reset" class="sub"> 
  </form>
-</div>
 
 
 
+<button class="Back">Back to Home</button>
 	<script type="text/javascript" src="lemonada.js"></script>
-
+	</div>
 </body>
 </html>

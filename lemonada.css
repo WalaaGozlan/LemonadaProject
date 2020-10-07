@@ -14,10 +14,21 @@ h4 {
 }
 
 img {
+	width: 100%;
 	display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+.paragraph {
+	font-size:20px;
+	font-style:oblique;
+	font-weight: bold;
+
+}
+label {
+	font-size: 40px;
+	font-weight: bold; 
 }
 
 input[type=text], input[type=email], textarea {
@@ -30,7 +41,7 @@ input[type=text], input[type=email], textarea {
     margin-bottom: 16px;
 	resize:vertical;
 }
-input[type=submit] {
+.sub {
 	background-color: #DB7093;
 	width: 15%;
 	padding: 12px;
@@ -40,6 +51,8 @@ input[type=submit] {
 	margin-top: 6px;
     margin-bottom: 16px;
 	resize:vertical;
+	font-size: 20px;
+	font-weight: bold; 
 
 }
 
@@ -81,5 +94,17 @@ footer {
 
 #mainpage {
 	background-image: url("https://tnhillsdistillery.com/wp-content/uploads/2018/03/Lemon-Drop-Background.png");
+
+}
+#feedbackpage{
+	background-image: url("https://lh3.googleusercontent.com/proxy/Y5IYLl10sdEVKEc0Wihnyh67DDXpgDdScgxTTK-zLepFuUInH4veloyZs_21suG9ZQzL5xYAC99HQKBwwhjb2n1BD0sueP0");
+}
+
+.Back {
+	width: 25%;
+ 	background-color: #228B22;
+ 	font-size: 20px;
+ 	padding: 14px 14px;
+ 	border-radius: 10px 20px;
 
 }
