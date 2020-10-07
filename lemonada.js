@@ -34,8 +34,38 @@ $("#feedback").click(function(){
 })
 
 
+var objPeople = [
+{
+	firstName:"jack",
+	lastName:"mer",
+	email:"jackmer@gmail.com"
+},
+{
+	firstName:"josh",
+	lastName:"eco",
+	email:"josheco@gmail.com"
+},
+{
+	firstName:"harry",
+	lastName:"potter",
+	email:"harrypotterer@gmail.com"
+}
+]
 
+$("#sub").click(function(){
+	var first = $(".feed")[0].val;
+	var last = $(".feed")[1].val;
+	var e = $("#check").val;
+	for (var i = 0; i< objPeople.length; i++) {
+		if(first == objPeople[i].firstName && last == objPeople[i].lastName && e == objPeople[i].email){
+			alert("Submit successfully")
+		}else{
+			alert("You need to fill your info!")
+		}
+	}
+})
  
+ console.log($("#sub"))
  // $("#sub").click(function(){
  // 	alert("Submit successfully!");
  // }
